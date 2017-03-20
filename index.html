@@ -17,7 +17,7 @@
   </header>
   <form>
     <fieldset>
-      <legend>Personal Details</legend>
+      <legend>Personal details</legend>
       <div class="grid">
         <div class="unit">
           <label for="name">Full name</label>
@@ -30,8 +30,8 @@
           <p>What all your friends call you, e.g. “Liz”. </p>
         </div>
         <div class="unit">
-          <label for="number">Age</label>
-          <input id="number" type="number" name="number" placeholder="yyyy-dd-mm">
+          <label for="date">Date of birth</label>
+          <input id="date" type="number" name="date" placeholder="yyyy-dd-mm">
         </div>
         <div class="unit">
           <label for="subject">T-shirt size</label>
@@ -49,6 +49,7 @@
             <option>Straight-cut: XL</option>
           </select>
         </div>
+      </div>
         <div class="unit">
           <label for="email">Email</label>
           <input id="email" type="email" name="email">
@@ -66,13 +67,13 @@
           <input id="address" name="address">
         </div>
         <div class="unit">
-          <label for="address">City</label>
-          <input id="address" name="address">
+          <label for="city">City</label>
+          <input id="city" name="city">
         </div>
         <div class="unit">
-          <label for="subject">Province</label>
+          <label for="province">Province</label>
           <input placeholder="Select a province">
-          <select id="subject" name="subject">
+          <select id="province" name="province">
             <option>Alberta</option>
             <option>British Colombia</option>
             <option>Manitoba</option>
@@ -87,16 +88,17 @@
             <option>Saskatchewan</option>
             <option>Yukon</option>
           </select>
+        </div>
         <div class="unit">
-          <label for="postal code">Postal code</label>
-          <input id="postal code" name="postal code">
+          <label for="postalcode">Postal code</label>
+          <input id="postalcode" name="postalcode">
         </div>
       </fieldset>
       <fieldset>
         <div>
-          <input type="checkbox" id="apato"></input>
-          <label for="activities">What activities are you interested in helping with?</label>
-          <option>Diggin holes</option>
+          <input type="checkbox" id="checkbox"></input>
+          <label for="checkbox">What activities are you interested in helping with?</label>
+          <option>Digging holes</option>
           <option>Getting dirty</option>
           <option>Lifting heavy objects</option>
           <option>Driving people</option>
@@ -106,8 +108,8 @@
           <option>Managing people</option>
         </div>
         <div>
-          <input type="checkbox" id="apato"></input>
-          <label for="activities">Do you have any experience with the following?</label>
+          <input type="checkbox" id="checkbox"></input>
+          <label for="checkbox">Do you have any experience with the following?</label>
           <option>Shovels</option>
           <option>Hand-held GPS</option>
           <option>Writing & blogging</option>
@@ -139,28 +141,15 @@
       </div>
     </fieldset>
     <fieldset>
-        <div class="unit">
-        <label for="message">Please let us know any comments or questions you may have.</label>
-        <textarea id="message" name="message"></textarea>
+      <div class="unit">
+      <label for="message">Please let us know any comments or questions you may have.</label>
+      <textarea id="message" name="message"></textarea>
+    </div>
     </fieldset>
     <div>
       <button class="btn" type="submit">Apply</button>
     </div>
     <footer>© Tree Hugger International Organization</footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</form>
 </body>
 </html>
