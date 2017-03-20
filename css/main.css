@@ -1,3 +1,25 @@
 html {
   font-family: 'Droid Serif', serif;
 }
+
+header {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+.btn {
+  background-color: #6e8c62;
+  border-color: inherit;
+  border-radius: .5em;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+input, textarea, select {
+  border: 2px solid #6e8c62;
+}
+
+footer {
+  background-color: #70ad55;
+  color: #fff;
+}
