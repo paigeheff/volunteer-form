@@ -33,10 +33,10 @@
           <label class="push-1-8" for="date">Date of birth</label>
           <input class="push-1-8" id="date" type="date" name="date">
         </div>
-        <div class="unit unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push gutter-1-2">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push gutter-1-2">
           <label for="subject">T-shirt size</label>
           <select id="subject" name="subject">
-            <option value="">Select a size</option>
+            <option value="">Select a t-shirt size</option>
             <option>Fitted: XS</option>
             <option>Fitted: S</option>
             <option>Fitted: M</option>
@@ -49,7 +49,6 @@
             <option>Straight-cut: XL</option>
           </select>
         </div>
-      </div>
       <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push gutter-1-2">
         <label class="push-1-8" for="email">Email</label>
         <input class="push-1-8" id="email" type="email" name="email">
@@ -58,10 +57,12 @@
         <label class="push-1-8" for="number">Phone number<em class="optional italic"> (optional)</em></label>
         <input class="push-1-8" id="number" type="tel" name="number">
       </div>
+    </div>
     </fieldset>
     <hr class="max-length push-2">
     <fieldset class="pad-t-1-2">
       <legend class="bold giga gutter-1-2 push">Address</legend>
+      <div class="grid">
       <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push gutter-1-2">
         <div class="push-1-2">
           <label class="push-1-8" for="address">Street address</label>
@@ -74,7 +75,7 @@
           <input id="city" name="city">
         </div>
       </div>
-      <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push gutter-1-2">
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push gutter-1-2">
         <div class="push-1-2">
           <label class="push-1-8" for="province">Province</label>
           <select id="province" name="province">
@@ -95,7 +96,7 @@
           </select>
         </div>
       </div>
-      <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push gutter-1-2">
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push gutter-1-2">
         <div class="push-1-2">
           <label class="push-1-8" for="postalcode">Postal code</label>
           <input id="postalcode" name="postalcode">
@@ -189,23 +190,23 @@
         <input type="checkbox" id="license" checked>
         <p class="bold mega">Do you have a valid driver’s license?</p>
         <input type="radio" id="driveryes">
-        <label for="driveryes">yes</label>
+        <label for="driveryes">Yes</label>
         <input type="radio" id="driverno">
-        <label for="driverno">no</label>
+        <label for="driverno">No</label>
       </div>
       <div class="pad-b">
         <p class="bold mega">Do you have a pick-up truck you’d be willing to use?</p>
         <input type="radio" id="truckyes">
-        <label for="truckyes">yes</label>
+        <label for="truckyes">Yes</label>
         <input type="radio" id="truckno">
-        <label for="truckno">no</label>
+        <label for="truckno">No</label>
       </div>
       <div class="pad-b">
         <p class="bold mega">Do you have up-to-date first-aid certification?</p>
         <input type="radio" id="aidyes">
-        <label for="aidyes">yes</label>
+        <label for="aidyes">Yes</label>
         <input type="radio" id="aidno">
-        <label for="aidno">no</label>
+        <label for="aidno">No</label>
       </div>
     </fieldset>
     <hr class="max-length">
@@ -217,7 +218,7 @@
     </fieldset>
     <hr class="max-length">
     <div class="text-center">
-      <button class="btn" type="submit">Apply</button>
+      <button class="btn tera" type="submit">Apply</button>
     </div>
   </form>
   <footer class="island">© Tree Hugger International Organization</footer>

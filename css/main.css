@@ -13,8 +13,8 @@ header {
   border-radius: .5em;
   padding-left: 3rem;
   padding-right: 3rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
 }
 
 input, textarea, select {
@@ -27,7 +27,7 @@ footer {
 }
 
 .text-center {
-  padding: 2rem;
+  padding: 2.5rem;
 }
 fieldset {
   border: none;
