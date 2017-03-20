@@ -8,32 +8,32 @@
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/type.css">
   <link rel="stylesheet" href="css/main.css">
-  <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Apply to be a tree planter</h1>
-    <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+  <header class="island">
+    <h1 class="exa push-1-2 bold">Apply to be a tree planter</h1>
+    <p class="mega">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
   </header>
-  <form>
+  <form class="gutter">
     <fieldset>
-      <legend>Personal details</legend>
+      <legend class="island giga bold">Personal details</legend>
       <div class="grid">
-        <div class="unit">
+        <div class="unit unit-x-s-1 s-1 m-1-2 l-1-2 xl-1-2">
           <label for="name">Full name</label>
           <input id="name" name="name">
-          <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+          <p class="italic micro">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
         </div>
-        <div class="unit">
+        <div class="unit unit-x-s-1 s-1 m-1-2 l-1-2 xl-1-2">
           <label for="text">What should we call you?</label>
           <input id="text" type="text" name="text">
-          <p>What all your friends call you, e.g. “Liz”. </p>
+          <p class="italic micro">What all your friends call you, e.g. “Liz”. </p>
         </div>
-        <div class="unit">
+        <div class="unit unit-x-s-1 s-1 m-1-2 l-1-2 xl-1-2">
           <label for="date">Date of birth</label>
           <input id="date" type="number" name="date" placeholder="yyyy-dd-mm">
         </div>
-        <div class="unit">
+        <div class="unit unit-x-s-1 s-1 m-1-2 l-1-2 xl-1-2">
           <label for="subject">T-shirt size</label>
           <input placeholder="Select a t-shirt size">
           <select id="subject" name="subject">
@@ -50,27 +50,27 @@
           </select>
         </div>
       </div>
-        <div class="unit">
+        <div class="unit unit-x-s-1 s-1 m-1-2 l-1-2 xl-1-2">
           <label for="email">Email</label>
           <input id="email" type="email" name="email">
         </div>
-        <div class="unit">
+        <div class="unit unit-x-s-1 s-1 m-1-2 l-1-2 xl-1-2">
           <label for="number">Phone number</label>
           <input id="number" type="number" name="number">
-          <p>optional</p>
+          <p class="italic">(optional)</p>
         </div>
       </fieldset>
       <fieldset>
-        <legend>Address</legend>
-        <div class="unit">
-          <label for="address">Address</label>
+        <legend class="bold">Address</legend>
+        <div class="unit unit-x-s-1 s-1 m-1-2 l-1-2 xl-1-2">
+          <label for="address">Street address</label>
           <input id="address" name="address">
         </div>
-        <div class="unit">
+        <div class="unit unit-x-s-1 s-1 m-1-2 l-1-2 xl-1-2">
           <label for="city">City</label>
           <input id="city" name="city">
         </div>
-        <div class="unit">
+        <div class="unit unit-x-s-1 s-1 m-1-2 l-1-2 xl-1-2">
           <label for="province">Province</label>
           <input placeholder="Select a province">
           <select id="province" name="province">
@@ -89,15 +89,15 @@
             <option>Yukon</option>
           </select>
         </div>
-        <div class="unit">
+        <div class="unit unit-x-s-1 s-1 m-1-2 l-1-2 xl-1-2">
           <label for="postalcode">Postal code</label>
           <input id="postalcode" name="postalcode">
         </div>
       </fieldset>
       <fieldset>
         <div>
-          <input type="checkbox" id="checkbox"></input>
-          <label for="checkbox">What activities are you interested in helping with?</label>
+          <input type="checkbox" id="checkbox">
+          <h2 class="bold">What activities are you interested in helping with?</h2>
           <option>Digging holes</option>
           <option>Getting dirty</option>
           <option>Lifting heavy objects</option>
@@ -108,8 +108,8 @@
           <option>Managing people</option>
         </div>
         <div>
-          <input type="checkbox" id="checkbox"></input>
-          <label for="checkbox">Do you have any experience with the following?</label>
+          <input type="checkbox" id="checkbox">
+          <h2 class="bold">What activities are you interested in helping with?</h2>Do you have any experience with the following?</h2>
           <option>Shovels</option>
           <option>Hand-held GPS</option>
           <option>Writing & blogging</option>
@@ -125,24 +125,24 @@
       <fieldset>
         <div>
         <input type="checkbox" id="license" checked>
-        <p>Do you have a valid driver’s license?</p>
+        <p class="bold">Do you have a valid driver’s license?</p>
         <p>yes</p>
         <p>no</p>
       </div>
       <div>
-        <p>Do you have a pick-up truck you’d be willing to use?</p>
+        <p class="bold">Do you have a pick-up truck you’d be willing to use?</p>
         <p>yes</p>
         <p>no</p>
       </div>
       <div>
-        <p>Do you have up-to-date first-aid certification?</p>
+        <p class="bold">Do you have up-to-date first-aid certification?</p>
         <p>yes</p>
         <p>no</p>
       </div>
     </fieldset>
     <fieldset>
-      <div class="unit">
-      <label for="message">Please let us know any comments or questions you may have.</label>
+      <div class="unit unit-x-s-1 s-1 m-1-2 l-1-2 xl-1-2">
+      <h2 class="bold">Please let us know any comments or questions you may have.</h2>
       <textarea id="message" name="message"></textarea>
     </div>
     </fieldset>
