@@ -29,6 +29,7 @@ footer {
 .text-center {
   padding: 2.5rem;
 }
+
 fieldset {
   border: none;
 }
@@ -40,7 +41,7 @@ input[type="radio"] + label::before {
 
 hr {
   border-color: #70ad55;
-  opacity: 0.25;
+  opacity: .25;
 }
 
 em {
